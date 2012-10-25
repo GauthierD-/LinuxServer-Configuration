@@ -1,0 +1,4 @@
+dn: cn=clientTest,ou=computers,dc=utopia,dc=net
+objectclass: host
+cn: clientTest
+ipHostNumber: 192.168.152.11

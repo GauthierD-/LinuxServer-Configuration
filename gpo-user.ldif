@@ -1,0 +1,5 @@
+dn: cn=user-gpo,ou=people,dc=utopia,dc=net
+objectClass: groupPolicyDescriptor
+objectClass: top
+id: 1337
+uri: /people/user.sh

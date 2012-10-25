@@ -1,0 +1,11 @@
+dn: dc=utopia,dc=net
+objectClass: domain
+dc: utopia
+
+dn: ou=people,dc=utopia,dc=net
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=computers,dc=utopia,dc=net
+objectClass: organizationalUnit
+ou: computers

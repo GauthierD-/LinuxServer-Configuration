@@ -1,0 +1,58 @@
+dn: cn=root,ou=people,dc=utopia,dc=net
+objectClass: posixGroup
+cn: root
+userPassword: {crypt}x
+gidNumber: 0
+
+dn: cn=supinfo,ou=people,dc=utopia,dc=net
+objectClass: posixGroup
+cn: supinfo
+userPassword: {crypt}x
+gidNumber: 1000
+
+dn: cn=tim,ou=people,dc=utopia,dc=net
+objectClass: posixGroup
+cn: tim
+userPassword: {crypt}x
+gidNumber: 1001
+
+dn: cn=pierre,ou=people,dc=utopia,dc=net
+objectClass: posixGroup
+cn: pierre
+userPassword: {crypt}x
+gidNumber: 1002
+
+dn: cn=flo,ou=people,dc=utopia,dc=net
+objectClass: posixGroup
+cn: flo
+userPassword: {crypt}x
+gidNumber: 1003
+
+dn: cn=gauthier,ou=people,dc=utopia,dc=net
+objectClass: posixGroup
+cn: gauthier
+userPassword: {crypt}x
+gidNumber: 1004
+
+dn: cn=direction,ou=people,dc=utopia,dc=net
+objectClass: posixGroup
+cn: direction
+userPassword: {crypt}x
+gidNumber: 1005
+memberUid: tim
+
+dn: cn=externes,ou=people,dc=utopia,dc=net
+objectClass: posixGroup
+cn: externes
+userPassword: {crypt}x
+gidNumber: 1006
+memberUid: pierre
+
+dn: cn=employes,ou=people,dc=utopia,dc=net
+objectClass: posixGroup
+cn: employes
+userPassword: {crypt}x
+gidNumber: 1007
+memberUid: flo
+memberUid: gauthier
+

@@ -1,0 +1,96 @@
+dn: uid=root,ou=people,dc=utopia,dc=net
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: root
+cn: root
+userPassword: {crypt}$6$bDCWR.dG$KcI19mpbnzs6SKtWzEe8k5tW67ftxgPb6W07B0leun1dS2f4SvkzyOxRQ4GyQElqGWPTyqMy2gZpi/JAkMwkk1
+shadowLastChange: 15219
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/bash
+uidNumber: 0
+gidNumber: 0
+homeDirectory: /root
+gecos: root
+
+dn: uid=supinfo,ou=people,dc=utopia,dc=net
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: supinfo
+cn: supinfo
+userPassword: {crypt}$6$BpSSTh69$nGhlo3uM4eHnmcanoqHZYrWXi9DqCxNttauApWMb1jIwCOsZp8vmwVywnQumGDQ55i87gdbnDlcLGrjenCBut.
+shadowLastChange: 15219
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/bash
+uidNumber: 1000
+gidNumber: 1000
+homeDirectory: /home/supinfo
+gecos: supinfo,,,
+
+dn: uid=tim,ou=people,dc=utopia,dc=net
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: tim
+cn: tim
+userPassword: {crypt}$6$e0a87m/V$aLYVQDIBFaAETrBLJ2uFNlMDCGny.YicSvCmnRJQGGTzKO3GvTqwqJL2/gUwEixOzkpLTZW6hYGN.qd0gPJOE/
+shadowLastChange: 15362
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/sh
+uidNumber: 1001
+gidNumber: 1001
+homeDirectory: /home/tim
+gecos: 
+
+dn: uid=pierre,ou=people,dc=utopia,dc=net
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: pierre
+cn: pierre
+userPassword: {crypt}$6$QpZT.sJU$IUi9oG0CpnBE1aPt7xW4KB.IAAJIP70r1yNCmgEPmJur9Xmf2ZQvY23v0K5oNytGLss19QWUQWN5NDpaqRYA21
+shadowLastChange: 15362
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/sh
+uidNumber: 1002
+gidNumber: 1002
+homeDirectory: /home/pierre
+gecos: 
+
+dn: uid=flo,ou=people,dc=utopia,dc=net
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: flo
+cn: flo
+userPassword: {crypt}$6$/GqcbE1x$6kSJMPK1roPKz1dmZwLOda8eEjfq7lJDbyRZbL3ShTsrT5qsjP06ZSB.ardnLNOwvse7tEd6br9aIJDwTvSW4/
+shadowLastChange: 15362
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/sh
+uidNumber: 1003
+gidNumber: 1003
+homeDirectory: /home/flo
+gecos: 
+
+dn: uid=gauthier,ou=people,dc=utopia,dc=net
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: gauthier
+cn: gauthier
+userPassword: {crypt}$6$hOT9Bxxq$TKHXJu9ap7tjCrwAwyF5gHKggp3M2glr5o8nSpSslVnwY8UNa3EG9Cp4l46zg0.6IoO/kjKrIA0BiWswJjLi2/
+shadowLastChange: 15362
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/sh
+uidNumber: 1004
+gidNumber: 1004
+homeDirectory: /home/gauthier
+gecos: 
+

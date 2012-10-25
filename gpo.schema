@@ -1,0 +1,22 @@
+##
+## schema file for OpenLDAP 2.0.x
+##
+#
+# GroupPolicyDescriptor
+attributetype (1.1.3.1
+	NAME 'id' 
+	DESC 'id gpo' 
+	SYNTAX 1.3.6.1.1.16.1{32} )
+
+attributetype ( 1.1.4.1 
+	NAME 'uri'
+	DESC 'uri gpo'
+        SUP labeledURI )
+
+objectclass ( 1.1.2.1 
+	NAME 'groupPolicyDescriptor'
+	DESC 'GPO made in linux'
+	SUP top STRUCTURAL
+	MUST (id $ uri) )
+
+

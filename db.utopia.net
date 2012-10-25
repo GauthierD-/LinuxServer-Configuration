@@ -1,0 +1,14 @@
+$ORIGIN utopia.net.
+$TTL 604800
+@	IN	 SOA	 ns.utopia.net. root.utopia.net. (
+	082300		; Serial
+	604800		; Refresh
+	86400		; Retry
+	2419200		; Expire
+	604800 )	; Negative Cache TTL
+;
+
+@	IN	NS	ns.utopia.net.
+ns 	IN 	A	192.168.152.135
+ldap	IN	CNAME	ns
+_ldap._tcp.utopia.net.  IN   SRV   0 0 389 ldap.utopia.net.
